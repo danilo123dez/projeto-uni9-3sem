@@ -3,14 +3,11 @@
 class homeController extends controller {
 
     public function index(){
-        $anuncios = new Anuncios();
 
-        $dados = array(
-            "quantidade" => $anuncios->getQuantidade()
-        );
-        
+        $this->setJs(['jquery.min', 'slick', 'home']);
+        $this->setCss(['home', 'slick']);
         $this->setTitle('Home');
-        $this->loadTemplate('home', $dados);
+        $this->loadTemplate('home');
     }
 
 }

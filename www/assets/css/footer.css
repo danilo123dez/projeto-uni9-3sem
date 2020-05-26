@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    background-color: #9b9494;
+    justify-content: space-between;
+}
+
+.footer-enderecos {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.footer-bairro {
+    font-weight: 800;
+    padding: 5px;
+}
+
+.footer-rua {
+    padding: 5px;
+}
+
+.footer-direitos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 20px;
+}
+
+.footer-cnpj{
+    margin-top: 30px;
+}

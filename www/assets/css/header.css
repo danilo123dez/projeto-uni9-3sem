@@ -1,6 +1,7 @@
 .header{
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 50px;
 }
 
 .itens-header{
@@ -22,7 +23,28 @@
     color: black;
 }
 
+.links-header li a:hover{
+    text-decoration: underline;
+}
+
+.input-pesquisa-header{
+    position: relative;   
+}
+
 .input-pesquisa-header input{
     margin-top: 16px;
     font-size: 24px;
+}
+
+.button-pesquisa-header{
+    position:absolute;
+    top:25px; right:0;
+    z-index:10;
+    border:none;
+    background:transparent;
+    outline:none;
+}
+
+.button-pesquisa-header:hover{
+    cursor: pointer;
 }
