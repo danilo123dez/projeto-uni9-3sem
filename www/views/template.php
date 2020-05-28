@@ -21,45 +21,47 @@
     <title><?php echo $this->getTitle(); ?></title>
 </head>
 <body>
-    <article>
-        <header class="header">
-            <div class="itens-header">
-                <a href="/"><img src="<?= BASE_URL; ?>assets/img/logo.png" width="150" alt=""></a>
-                <ul class="links-header">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/login">Login</a></li>
-                    <li><a href="/contato">Contato</a></li>
-                </ul>
-            </div>
-            <div class="input-pesquisa-header">
-                <input type="text" name="" id="" placeholder="Pesquisar">
-                <button class="button-pesquisa-header" type="button">
-                    <i class="fa fa-search"></i>
-                </button>
-            </div>
-        </header>
-    </article>
+    <div class="wrapper">
 
-        <?php $this->loadViewInTemplate($viewName, $viewData); ?>
+        <article>
+            <header class="header">
+                <div class="itens-header">
+                    <a href="/"><img src="<?= BASE_URL; ?>assets/img/logo.png" width="150" alt=""></a>
+                    <ul class="links-header">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/login">Login</a></li>
+                        <li><a href="/contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="input-pesquisa-header">
+                    <input type="text" name="" id="" placeholder="Pesquisar">
+                    <button class="button-pesquisa-header" type="button">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </header>
+        </article>
 
-    <article>
-        <footer class="footer">
-            <div class="footer-enderecos">
-                <span class="footer-bairro">Matriz</span>
-                <span class="footer-rua">Rua Naruto Uzumaki, 666, kohoha 1</span>
+            <?php $this->loadViewInTemplate($viewName, $viewData); ?>
 
-                <span class="footer-bairro">Matriz</span>
-                <span class="footer-rua">Rua Naruto Uzumaki, 666, kohoha 1</span>
-            </div>
-            <div class="footer-direitos">
-                <img src="<?= BASE_URL; ?>assets/img/logo.png" width="150" alt="">
-                <span>&copy; <?= date('Y'); ?> Agency of Depression, Todos os direitos reservados.</span>
-                <span class="footer-cnpj">CNPJ 12.345.235/0001-00</span>
-            </div>
-        </footer>
-    </article>
+        <article>
+            <footer class="footer">
+                <div class="footer-enderecos">
+                    <span class="footer-bairro">Matriz</span>
+                    <span class="footer-rua">Rua Naruto Uzumaki, 666, kohoha 1</span>
 
-        
+                    <span class="footer-bairro">Matriz</span>
+                    <span class="footer-rua">Rua Naruto Uzumaki, 666, kohoha 1</span>
+                </div>
+                <div class="footer-direitos">
+                    <img src="<?= BASE_URL; ?>assets/img/logo.png" width="150" alt="">
+                    <span>&copy; <?= date('Y'); ?> Agency of Depression, Todos os direitos reservados.</span>
+                    <span class="footer-cnpj">CNPJ 12.345.235/0001-00</span>
+                </div>
+            </footer>
+        </article>
+
+    </div>
     <?php 
         $js = $this->getJs();
         if(!empty($js)){

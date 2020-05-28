@@ -1,0 +1,53 @@
+.footer{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+.container a{
+    text-decoration: none;
+    color: black;
+}
+
+.box-login {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.inputs-login {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.inputs-login label{
+    margin-left: 5px;
+}
+
+.inputs-login label:not(:first-child){
+    margin-top: 10px;
+}
+
+.inputs-login input{
+    padding: 5px;
+}
+
+.buttons-login{
+    margin: 10px 10px;
+}
+
+.button{
+    margin-top: 5px;
+    padding: 10px 25px 10px 25px;
+    background-color: #fff;
+    border: 1px solid black;
+    font-size: 15.5px;
+}
+
+.button:hover{
+    cursor: pointer;
+    border: 1.5px solid black;
+}
