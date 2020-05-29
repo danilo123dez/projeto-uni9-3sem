@@ -51,3 +51,8 @@
     cursor: pointer;
     border: 1.5px solid black;
 }
+
+.message-error{
+    color: red;
+    font-size: 14px;
+}

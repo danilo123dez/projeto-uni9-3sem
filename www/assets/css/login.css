@@ -63,3 +63,12 @@
 .actions-login a:not(:first-child){
     margin-top: 10px;
 }
+
+.success-cadastro{
+    color: #008000;
+}
+
+.message-error{
+    color: red;
+    font-size: 14px;
+}

@@ -39,6 +39,14 @@
                         <i class="fa fa-search"></i>
                     </button>
                 </div>
+
+                <?php if(isset($_SESSION['logged']) && $_SESSION['logged']){ ?>
+                <div class="inputs-logged">
+                    <span>Olá <strong><?php echo $_SESSION['user']; ?></strong>, Bem vindo</span>
+                    <br>
+                    <a href="/sair">sair</a>
+                </div>
+                <?php } ?>
             </header>
         </article>
 
