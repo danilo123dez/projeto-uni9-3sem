@@ -1,7 +1,8 @@
 .footer {
     display: flex;
-    background-color: #E0E0E0;
+    background-color: #763b4d;
     justify-content: space-between;
+    color: #fff;
 }
 
 .footer-enderecos {

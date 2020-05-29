@@ -5,10 +5,10 @@
     </div>
 
     <div class="box-contato">
-        <span>contato@agencyodp.com</span>
-        <span class="telefone-contato"><i class="fas fa-phone"></i> (11) 0202-0303</span>
-        <span>Matriz: Rua Naruto Uzumaki, 666, Konoha 1</span>
-        <span>Sede SP: Alameda Ministro Rocha Azevedo, 912</span>
+        <span><strong> contato@agencyodp.com</strong> </span>
+        <span class="telefone-contato"><i class="fas fa-phone"></i><strong>  (11) 0202-0303</strong> </span>
+        <span><strong> Matriz: Rua Naruto Uzumaki, 666, Konoha 1</strong> </span>
+        <span><strong> Sede SP: Alameda Ministro Rocha Azevedo, 912</strong> </span>
     </div>
     <i class="far fa-envelope icon-mail"></i>
     <div class="box-email-contato">

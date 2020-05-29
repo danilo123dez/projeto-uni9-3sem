@@ -17,8 +17,8 @@
         </div>
 
         <div class="buttons-login">
-            <a href="/" class="button">Cancelar</a>
-            <button class="button" type="submit">Entrar</button>
+            <a href="/login" class="button">Cancelar</a>
+            <button class="button" type="submit">Cadastrar</button>
         </div>
 
     </div>
