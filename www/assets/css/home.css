@@ -13,18 +13,47 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    text-align: center;
 }
 
 .slider{
     position: relative;
+    text-align: left;
 }
 
 .slider img {
-    height: calc(48vh - 100px);
-    width: auto;
-    margin: 0 auto; /* it centers any block level element */
-  }
+    height: 80vh;
+    width: 100% !important;
+}
+
+.title-image{
+    position: absolute;
+    color: #f1ba39;
+    top: 60px;
+    font-size: 60px;
+}
+
+.body-image{
+    position: absolute;
+    color: #fff;
+    top: 150px;
+    font-size: 50px;
+}
+
+.img-2{
+    display: flex !important;
+    justify-content: center;
+}
+
+
+.img-2 .title-image{
+    top: 40px;
+}
+
+.img-2 .body-image{
+    top: 130px;
+}
 
 .prev {
     display: block;
@@ -43,27 +72,42 @@
     z-index: 1000;
 }
 
-.itens-servicos {
+.parallax {
+    background-image: url("/assets/img/parallax.jpg");
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.item {
-    border: 1px solid #d7d7d7;
-    margin: 10px;
-    height: 241px;
+.parallax h3{
+    color: #ffdf31;
+    z-index: 3;
+    font-size: 40px;
+    font-weight: 800
 }
 
-.header-item {
-    display: flex;
-    flex-direction: column;
-    background: rgb(213,56,53);
-    background: radial-gradient(circle, rgba(213,56,53,1) 0%, rgba(5,161,174,1) 100%);
-    height: 29%;
-    color: white;
-    font-size: 26px;
-    padding: 5px;
-}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 0.62);
+    z-index: 2;
+  }
 
-.header-item i{
-    font-size: 40px
+.slide-projetos{
+    padding-bottom: 120px;
 }
+ .slide-projetos img:hover {
+    top:-2px;
+    box-shadow:0px 5px 10px 10px #666
+ }

@@ -60,10 +60,7 @@ html, body{
     cursor: pointer;
 }
 
-.container{
-    text-align: center;
-    width: 60%;
-    margin: 0 auto;
+.container-views{
     padding-top: 120px;
 }
 

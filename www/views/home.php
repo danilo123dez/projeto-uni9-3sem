@@ -1,48 +1,79 @@
-<section class="container">
-    <div class="titulos-container">
-        <h2>Agency of Depression</h2>
-        <p>Somos uma das maiores agências de todo o Brasil. Estamos presentes em vários estados em todo o território nacional.</p>
-    </div>
+<section class="container-views">
 
     <div class="slider">
-        <div><img src="<?php echo BASE_URL; ?>assets/img/slide_img1.png" alt=""></div>
-        <div><img src="<?php echo BASE_URL; ?>assets/img/slide_img2.jpg" alt=""></div>
-        <div><img src="<?php echo BASE_URL; ?>assets/img/slide_img3.png" alt=""></div>
+        <div><img src="<?php echo BASE_URL; ?>assets/img/slide_img1.jpg" alt=""><span class="title-image">Design</span> <span class="body-image">Visual atraente <br> para sua marca <br> e ramo de <br> atividade.</span></div>
+        <div class="img-2"><img src="<?php echo BASE_URL; ?>assets/img/slide_img2.jpg" alt=""><span class="title-image">Marketing</span> <span class="body-image">Visual atraente para sua marca e ramo de atividade.</span></div>
     </div>
 
-    <div class="titulos-container">
-        <h2>Serviços</h2>
-        <p>Nossos Serviços são entreges por uma equipe com anos de experiênciano mercado e apaixonados pelo que fazem</p>
+    <div style="position: relative; margin-top: -7px;">
+        <div class="parallax">
+            <h3>Últimos projetos</h3>
+            <div class="overlay"></div>
+        </div>
     </div>
 
-    <div class="itens-servicos">
-        <div class="item">
-            <div class="header-item">
-                <i class="fas fa-paint-brush"></i>
-                <span>Design</span>
-            </div>
-            <div class="body-item">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus sem vitae massa vestibulum, ut maximus libero sodales. Maecenas enim erat</p>
+    <div class="slide-projetos">
+        <div class="card" style="width: 18rem;">
+            <img src="<?php echo BASE_URL; ?>assets/img/projeto1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
         </div>
 
-        <div class="item">
-            <div class="header-item">
-            <i class="far fa-lightbulb"></i>
-                <span>Marketing</span>
-            </div>
-            <div class="body-item">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus sem vitae massa vestibulum, ut maximus libero sodales. Maecenas enim erat</p>
+        <div class="card" style="width: 18rem;">
+            <img src="<?php echo BASE_URL; ?>assets/img/projeto2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
         </div>
 
-        <div class="item">
-            <div class="header-item">
-            <i class="fas fa-laptop-code"></i>
-                <span>Programação</span>
+        <div class="card" style="width: 18rem;">
+            <img src="<?php echo BASE_URL; ?>assets/img/projeto3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
-            <div class="body-item">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus sem vitae massa vestibulum, ut maximus libero sodales. Maecenas enim erat</p>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="<?php echo BASE_URL; ?>assets/img/projeto4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="<?php echo BASE_URL; ?>assets/img/projeto1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="<?php echo BASE_URL; ?>assets/img/projeto2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="<?php echo BASE_URL; ?>assets/img/projeto3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="<?php echo BASE_URL; ?>assets/img/projeto4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
         </div>
     </div>
