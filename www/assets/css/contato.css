@@ -1,82 +1,44 @@
-.titulos-container h2{
-    width: 50%;
-    text-decoration: none;
-    border-bottom: 1px solid black;
+.topo-contato{
+    max-width: 60%;
+    padding: 40px 0px 40px 0px;
+    margin: 0 auto;
 }
 
-.titulos-container p{
-    width: 60%;
-    color: #817f7f;
+.topo-contato h2 {
+    color: #FA693F;
 }
 
-.titulos-container{
+.topo-contato p {
+    font-size: 20px;
+}
+
+.info-contato{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center
 }
 
-.box-contato {
-    margin: 10px 0px 10px 0px;
-    display: flex;
-    flex-direction: column;
-    background: rgb(5,161,174);
-    background: radial-gradient(circle, rgba(5,161,174,1) 0%, rgba(6,96,103,1) 100%);
-    align-items: center;
+.info-contato .border-icon{
+    border: 1px solid #FA693F;
 }
 
-.box-contato span{
-    color: #FFF;
+.info-contato i{
+    font-size: 76px;
     padding: 10px;
+    color: #FA693F;
 }
 
-.box-contato span.telefone-contato{
-    padding: 15px 20px 15px 20px;
-    color: black;
-    background-color: #50b6c8;
-    border: 1px solid #52d8ef;
-    width: max-content;
-}
-
-.box-email-contato {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
-}
-
-.info-contato {
+.info-contato .text-contato{
     display: flex;
     flex-direction: column;
-    text-align: left;
+    margin-left: 20px;
 }
 
-.info-contato label:not(:first-child){
-    margin-top: 10px;
+.info-contato .text-contato h4{
+    color: #FA693F;
 }
 
-.info-contato input{
-    margin-top: 10px;
-    padding: 5px;
-}
-
-.email-mensagem {
+.contato{
     display: flex;
     flex-direction: column;
-    text-align: left;
-}
-
-.div-button-submit{
-    align-self: flex-end;
-}
-
-.button-submit{
-    margin-top: 5px;
-    padding: 10px 25px 10px 25px;
-    background-color: #fff;
-    border: 1px solid #777070;
-    font-size: 1rem;
-}
-
-.icon-mail{
-    font-size: 75px;
+    align-items: center;
+    text-align: center;
 }

@@ -24,6 +24,10 @@ html, body{
     align-items: center;
 }
 
+.itens-header img{
+    width: 150px;
+}
+
 .links-header li{
     font-size: 24px;
     padding-left: 10px;
@@ -62,6 +66,7 @@ html, body{
 
 .container-views{
     padding-top: 120px;
+    padding-bottom: 20px;
 }
 
 .inputs-logged{
@@ -74,4 +79,48 @@ html, body{
 .inputs-logged a{
     text-decoration: none;
     color: #222;
+}
+
+@media only screen and (max-width: 752px) {
+    .links-header li{
+        font-size: 20px;
+        padding-left: 2px;
+    }
+
+    .itens-header img{
+        width: 120px;
+    }
+
+    .input-pesquisa-header input{
+        font-size: 19px;
+    }
+    
+}
+
+@media only screen and (max-width: 602px) {
+    .links-header{
+        padding: 0px;
+    }
+    
+}
+
+@media only screen and (max-width: 552px) {
+    .header{
+        flex-flow: column;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    .itens-header{
+        flex-flow: column;
+    }
+
+    .links-header{
+        flex-flow: column;
+    }
+
+    .container-views{
+        padding-top: 230px;
+    }
+    
 }
