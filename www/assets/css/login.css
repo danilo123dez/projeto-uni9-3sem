@@ -13,7 +13,7 @@
 .box-login {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -31,20 +31,10 @@
     margin-top: 10px;
 }
 
-.inputs-login input{
-    padding: 5px;
-}
-
 .buttons-login{
     margin: 10px 10px;
-}
-
-.button{
-    margin-top: 5px;
-    padding: 10px 25px 10px 25px;
-    background-color: #fff;
-    border: 1px solid black;
-    font-size: 15.5px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .button:hover{
@@ -71,4 +61,70 @@
 .message-error{
     color: red;
     font-size: 14px;
+}
+
+@media only screen and (max-width: 994px) {
+    .buttons-login{
+        margin: 10px 10px;
+    }
+}
+
+
+@media only screen and (max-height: 582px) {
+    .footer{
+        bottom: -61px;
+    }
+}
+
+@media only screen and (max-width: 777px) {
+    .footer{
+        bottom: -77px;
+    }
+}
+
+@media only screen and (max-width: 552px) {
+    .footer{
+        bottom: -205px;
+    }
+
+    .container-views{
+        padding-top: 247px;
+    }
+}
+
+@media only screen and (max-width: 502px) {
+    .footer{
+        bottom: -226px;
+    }
+
+    .container-views{
+        padding-top: 247px;
+    }
+}
+
+@media only screen and (max-width: 452px) {
+    .footer{
+        bottom: -232px;
+    }
+}
+
+@media only screen and (max-width: 388px) {
+    .footer{
+        bottom: -270px;
+    }
+
+}
+
+@media only screen and (max-width: 352px) {
+    .footer{
+        bottom: -276px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .footer{
+        bottom: -350px;
+    }
+
 }

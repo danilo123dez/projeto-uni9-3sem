@@ -27,7 +27,7 @@
         <article>
             <header class="header">
                 <div class="itens-header">
-                    <a href="/"><img src="<?= BASE_URL; ?>assets/img/logo.png" width="150" alt=""></a>
+                    <a href="/"><img src="<?= BASE_URL; ?>assets/img/logo.png" alt=""></a>
                     <ul class="links-header">
                         <li><a href="/">Home</a></li>
                         <li><a href="/login">Login</a></li>
@@ -35,7 +35,7 @@
                     </ul>
                 </div>
                 <div class="input-pesquisa-header">
-                    <input type="text" name="" id="" placeholder="Pesquisar">
+                    <input type="text" class="form-control" placeholder="Pesquisar">
                     <button class="button-pesquisa-header" type="button">
                         <i class="fa fa-search"></i>
                     </button>

@@ -1,7 +1,4 @@
-<section class="container">
-    <div class="titulos-container">
-        <h2>Login</h2>
-    </div>
+<section class="container-views container">
 
     <div class="box-login">
         <form action="/login/logar" method="POST">
@@ -18,17 +15,24 @@
                     unset($_SESSION['login_error']);
                 }
             ?>
-            <div class="inputs-login">
-                <label>E-mail</label>
-                <input type="email" name="email" required placeholder="Usuário">
 
-                <label>Senha</label>
-                <input type="password" name="senha" required placeholder="Senha">
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <label for="inputEmail4">E-mail</label>
+                    <input type="email" class="form-control" placeholder="E-mail">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <label for="inputEmail4">Senha</label>
+                    <input type="password" class="form-control" placeholder="Senha">
+                </div>
             </div>
 
             <div class="buttons-login">
-                <a href="/" class="button">Cancelar</a>
-                <button class="button" type="submit">Entrar</button>
+                <a href="/" class="btn btn-danger" style="color: #fff;">Cancelar</a>
+                <button class="btn btn-primary" type="submit">Entrar</button>
             </div>
         </form>
         <div class="actions-login">
