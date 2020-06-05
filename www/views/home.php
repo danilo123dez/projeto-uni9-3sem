@@ -1,4 +1,4 @@
-<section class="container-views">
+<section class="container-views <?php echo isset($_SESSION['logged']) && $_SESSION['logged'] ? 'content-logged' : '' ?>">
 
     <div class="slider">
         <div><img src="<?php echo BASE_URL; ?>assets/img/slide_img1.jpg" alt=""><span class="title-image">Design</span> <span class="body-image">Visual atraente <br> para sua marca <br> e ramo de <br> atividade.</span></div>

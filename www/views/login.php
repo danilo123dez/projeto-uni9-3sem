@@ -1,4 +1,4 @@
-<section class="container-views container">
+<section class="container-views container <?php echo isset($_SESSION['logged']) && $_SESSION['logged'] ? 'content-logged' : '' ?>">
 
     <div class="box-login">
         <form action="/login/logar" method="POST">
@@ -19,14 +19,14 @@
             <div class="form-row">
                 <div class="form-group col-md-12">
                     <label for="inputEmail4">E-mail</label>
-                    <input type="email" class="form-control" placeholder="E-mail">
+                    <input type="email" class="form-control" name="email" placeholder="E-mail">
                 </div>
             </div>
 
             <div class="form-row">
                 <div class="form-group col-md-12">
                     <label for="inputEmail4">Senha</label>
-                    <input type="password" class="form-control" placeholder="Senha">
+                    <input type="password" class="form-control" name="senha" placeholder="Senha">
                 </div>
             </div>
 
