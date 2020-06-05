@@ -1,4 +1,4 @@
-<section class="container container-views">
+<section class="container container-views <?php echo isset($_SESSION['logged']) && $_SESSION['logged'] ? 'content-logged' : '' ?>">
     <div class="box-login">
         <form action="/cadastro/store" method="POST">
             <div class="form-row">

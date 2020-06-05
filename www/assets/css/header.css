@@ -70,6 +70,7 @@ html, body{
 }
 
 .inputs-logged{
+    margin-top: 15px;
     align-self: center;
     display: flex;
     flex-direction: column;
@@ -121,6 +122,10 @@ html, body{
 
     .container-views{
         padding-top: 230px;
+    }
+
+    .container-views.content-logged{
+        padding-top: 333px;
     }
     
 }

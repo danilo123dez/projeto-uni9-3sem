@@ -1,4 +1,4 @@
-<section class="container container-views">
+<section class="container container-views <?php echo isset($_SESSION['logged']) && $_SESSION['logged'] ? 'content-logged' : '' ?>">
     <div class="topo-contato">
         <h2>Fale Conosco</h2> 
         <p>Queremos muito ouvir você, então por que não nos envia um e-mail? Entraremos em contato com você o mais breve possível.</p>

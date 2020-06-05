@@ -133,6 +133,20 @@
     justify-content: space-between;
 }
 
+.projetos img{
+    width: 100%;
+}
+
+.card{
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.projetos img:hover{
+    top:-2px;
+    box-shadow:0 2px 2px #666
+}
+
  @media only screen and (max-width: 1163px) {
     .img-2 .body-image{
       font-size: 40px; 
