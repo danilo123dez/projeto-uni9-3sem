@@ -1,6 +1,17 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
 .header{
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    background-color: #fff;
+    border-bottom: 1px solid #d7d7d7;
 }
 
 .itens-header{
@@ -10,6 +21,11 @@
 .links-header{
     display: flex;
     list-style: none;
+    align-items: center;
+}
+
+.itens-header img{
+    width: 150px;
 }
 
 .links-header li{
@@ -22,7 +38,94 @@
     color: black;
 }
 
+.links-header li a:hover{
+    text-decoration: underline;
+}
+
+.input-pesquisa-header{
+    position: relative;   
+    align-self: center;
+}
+
 .input-pesquisa-header input{
-    margin-top: 16px;
     font-size: 24px;
+}
+
+.button-pesquisa-header{
+    position:absolute;
+    top:10px; right:0;
+    z-index:10;
+    border:none;
+    background:transparent;
+    outline:none;
+}
+
+.button-pesquisa-header:hover{
+    cursor: pointer;
+}
+
+.container-views{
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+
+.inputs-logged{
+    margin-top: 15px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.inputs-logged a{
+    text-decoration: none;
+    color: #222;
+}
+
+@media only screen and (max-width: 752px) {
+    .links-header li{
+        font-size: 20px;
+        padding-left: 2px;
+    }
+
+    .itens-header img{
+        width: 120px;
+    }
+
+    .input-pesquisa-header input{
+        font-size: 19px;
+    }
+    
+}
+
+@media only screen and (max-width: 602px) {
+    .links-header{
+        padding: 0px;
+    }
+    
+}
+
+@media only screen and (max-width: 552px) {
+    .header{
+        flex-flow: column;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    .itens-header{
+        flex-flow: column;
+    }
+
+    .links-header{
+        flex-flow: column;
+    }
+
+    .container-views{
+        padding-top: 230px;
+    }
+
+    .container-views.content-logged{
+        padding-top: 333px;
+    }
+    
 }

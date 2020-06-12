@@ -1,0 +1,44 @@
+.topo-contato{
+    max-width: 60%;
+    padding: 40px 0px 40px 0px;
+    margin: 0 auto;
+}
+
+.topo-contato h2 {
+    color: #FA693F;
+}
+
+.topo-contato p {
+    font-size: 20px;
+}
+
+.info-contato{
+    display: flex;
+}
+
+.info-contato .border-icon{
+    border: 1px solid #FA693F;
+}
+
+.info-contato i{
+    font-size: 76px;
+    padding: 10px;
+    color: #FA693F;
+}
+
+.info-contato .text-contato{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.info-contato .text-contato h4{
+    color: #FA693F;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}

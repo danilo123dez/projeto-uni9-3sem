@@ -32,7 +32,11 @@ class Core {
 
         $c = new $currentController();
 
-        call_user_func_array(array($c, $currentAction), $params);
+        if(method_exists($c, $currentAction)){
+            call_user_func_array(array($c, $currentAction), $params);
+        }else{
+            require 'views/errors/404.php';
+        }
     }
 
 }

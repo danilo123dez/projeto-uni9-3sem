@@ -1,0 +1,130 @@
+.footer{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+.container a{
+    text-decoration: none;
+    color: black;
+}
+
+.box-login {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.inputs-login {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.inputs-login label{
+    margin-left: 5px;
+}
+
+.inputs-login label:not(:first-child){
+    margin-top: 10px;
+}
+
+.buttons-login{
+    margin: 10px 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button:hover{
+    cursor: pointer;
+    border: 1.5px solid black;
+}
+
+.actions-login{
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.actions-login a:not(:first-child){
+    margin-top: 10px;
+}
+
+.success-cadastro{
+    color: #008000;
+}
+
+.message-error{
+    color: red;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 994px) {
+    .buttons-login{
+        margin: 10px 10px;
+    }
+}
+
+
+@media only screen and (max-height: 582px) {
+    .footer{
+        bottom: -61px;
+    }
+}
+
+@media only screen and (max-width: 777px) {
+    .footer{
+        bottom: -77px;
+    }
+}
+
+@media only screen and (max-width: 552px) {
+    .footer{
+        bottom: -205px;
+    }
+
+    .container-views{
+        padding-top: 247px;
+    }
+}
+
+@media only screen and (max-width: 502px) {
+    .footer{
+        bottom: -226px;
+    }
+
+    .container-views{
+        padding-top: 247px;
+    }
+}
+
+@media only screen and (max-width: 452px) {
+    .footer{
+        bottom: -232px;
+    }
+}
+
+@media only screen and (max-width: 388px) {
+    .footer{
+        bottom: -270px;
+    }
+
+}
+
+@media only screen and (max-width: 352px) {
+    .footer{
+        bottom: -276px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .footer{
+        bottom: -350px;
+    }
+
+}

@@ -1,0 +1,218 @@
+.body-image-responsive{
+    display: none;
+    position: absolute;
+    color: #fff;
+    top: 130px;
+    font-size: 50px;
+}
+
+.titulos-container h2{
+    width: 50%;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+.titulos-container p{
+    width: 60%;
+    color: #817f7f;
+}
+
+.titulos-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slider{
+    position: relative;
+    text-align: left;
+}
+
+.slider img {
+    height: 70vh;
+    width: 100% !important;
+}
+
+.title-image{
+    position: absolute;
+    color: #f1ba39;
+    top: 60px;
+    font-size: 60px;
+}
+
+.body-image{
+    position: absolute;
+    color: #fff;
+    top: 150px;
+    font-size: 50px;
+}
+
+.img-2{
+    display: flex !important;
+    justify-content: center;
+}
+
+
+.img-2 .title-image{
+    top: 40px;
+}
+
+.img-2 .body-image{
+    top: 130px;
+}
+
+.prev {
+    display: block;
+    position: absolute;
+    z-index: 1000;
+    top:50%;
+    transform: translateY(-50%);
+}
+  
+.next {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top:50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+.diferenciais{
+    max-width: 60%;
+    padding: 40px 0px 40px 0px;
+    margin: 0 auto;
+}
+
+.diferenciais h2 {
+    color: #FA693F;
+}
+
+.diferenciais p {
+    font-size: 20px;
+    font-family: Bradley Hand, cursive;
+}
+
+.parallax {
+    background-image: url("/assets/img/parallax.jpg");
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax h3{
+    color: #ffdf31;
+    z-index: 3;
+    font-size: 40px;
+    font-weight: 800
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 0.62);
+    z-index: 2;
+  }
+
+.projetos {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.projetos img{
+    width: 100%;
+}
+
+.card{
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.projetos img:hover{
+    top:-2px;
+    box-shadow:0 2px 2px #666
+}
+
+ @media only screen and (max-width: 1163px) {
+    .img-2 .body-image{
+      font-size: 40px; 
+    }
+}
+
+@media only screen and (max-width: 942px) {
+    .img-2 .body-image{
+      font-size: 35px; 
+    }
+
+    .body-image{
+        font-size: 40px; 
+    }
+  
+
+    .title-image{
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 822px) {
+    .img-2 .body-image{
+      font-size: 30px; 
+      font-weight: 800;
+    }
+}
+
+@media only screen and (max-width: 722px) {
+    .img-2 .body-image{
+      font-size: 25px; 
+    }
+}
+
+@media only screen and (max-width: 622px) {
+    .body-image-responsive{
+        display: block;
+        font-size: 25px; 
+    }
+
+    .img-2 .body-image{
+        display: none;
+      }
+}
+
+@media only screen and (max-width: 594px) {
+    .projetos {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .card{
+        width: 60%;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .body-image{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 382px) {
+    .body-image-responsive{
+      font-size: 20px; 
+    }
+}
